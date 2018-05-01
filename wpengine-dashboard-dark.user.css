@@ -1,0 +1,114 @@
+/* ==UserStyle==
+@name        GitHub Dark
+@namespace   mikemanger
+@version     1.0.1
+@homepageURL https://github.com/mikemanger/stylish-wpengine-dark-theme/
+@updateURL   https://raw.githubusercontent.com/mikemanger/stylish-wpengine-dark-theme/master/wpengine-dashboard-dark.user.css
+@license     CC-BY-4.0
+==/UserStyle== */
+@-moz-document domain(my.wpengine.com) {
+	body,
+	.navbar-default {
+		background-color: rgb(38, 38, 38);
+		color: #6a737d;
+	}
+
+	.navbar-default {
+		border-color: #484848;
+	}
+
+	.shared-header .navbar-header .navbar-brand,
+	footer.page-footer svg {
+		filter: invert(90%);
+	}
+
+	.navbar-default .navbar-nav>.active>a,
+	.navbar-default .navbar-nav>.active>a:hover,
+	.navbar-default .navbar-nav>.active>a:focus,
+	.navbar-default .navbar-nav>li>a:hover,
+	.navbar-default .navbar-nav>li>a:focus,
+	.navbar-default .navbar-nav>li>a,
+	#page-dashboard table.install-list tbody a,
+	#sidebar li.active a,
+	footer.page-footer ul.nav-links a {
+		color: #6a737d;
+	}
+
+	.navbar-default .navbar-nav>.open>a,
+	.navbar-default .navbar-nav>.open>a:hover,
+	.navbar-default .navbar-nav>.open>a:focus
+	.navbar-default .navbar-nav>li>a {
+		color: #8CABC8 !important;
+	}
+
+	.panel,
+	.panel-heading,
+	.panel-footer {
+		background: #1d1d1d !important;
+		color: #6a737d !important;
+	}
+
+	#page_heading,
+	.panel-default,
+	.panel-body,
+	.panel-widget,
+	.panel-footer,
+	#page-dashboard table.install-list thead th,
+	#page-dashboard table.install-list tbody tr+tr {
+		border-color: #484848 !important;
+	}
+
+	table,
+	table.dataTable tbody tr,
+	.gray-field {
+		background-color: #262626 !important;
+	}
+
+	#page-overview table.install-detail tr,
+	table,
+	.table,
+	footer.page-footer {
+		border-color: #484848;
+	}
+
+	#page-overview table.install-detail td.row-label {
+		background-color: #393939;
+	}
+
+	.btn-primary {
+		background-color: #8cabc8;
+	}
+	.btn-bevel-white:before {
+		border-top-color: #1d1d1d;
+	}
+
+	#digital-media-platform .panel-body .btn,
+	#digital-media-platform .panel-body #page-user-activities #user_activities table .activity-filter .filter-actions button,
+	#page-user-activities #user_activities table .activity-filter .filter-actions #digital-media-platform .panel-body button,
+	#digital-media-platform .panel-body #page-user-activities #user_activities table .activity-filter .filter-actions a,
+	#page-user-activities #user_activities table .activity-filter .filter-actions #digital-media-platform .panel-body a {
+		background-color: #8cabc8;
+		border-color: #8cabc8;
+	}
+
+	.table-striped>tbody>tr:nth-child(even)>td,
+	.table-striped>tbody>tr:nth-child(even)>th {
+		background-color: inherit;
+	}
+
+	.table-striped>tbody>tr:nth-child(odd)>td,
+	.table-striped>tbody>tr:nth-child(odd)>th {
+		background-color: #1d1d1d !important;
+	}
+
+	.log-viewer .search-form,
+	.table>thead>tr>th,
+	.table>thead>tr>td,
+	.table>tbody>tr>th,
+	.table>tbody>tr>td,
+	.table>tfoot>tr>th,
+	.table>tfoot>tr>td,
+	.log-viewer table.dataTable.no-footer {
+		border-color: #484848;
+	}
+}
