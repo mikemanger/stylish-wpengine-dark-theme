@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        GitHub Dark
 @namespace   mikemanger
-@version     1.0.1
+@version     1.0.2
 @homepageURL https://github.com/mikemanger/stylish-wpengine-dark-theme/
 @updateURL   https://raw.githubusercontent.com/mikemanger/stylish-wpengine-dark-theme/master/wpengine-dashboard-dark.user.css
 @license     CC-BY-4.0
@@ -34,6 +34,7 @@
 		color: #6a737d;
 	}
 
+	#page-sites .sites-table .site-name a,
 	.navbar-default .navbar-nav>.open>a,
 	.navbar-default .navbar-nav>.open>a:hover,
 	.navbar-default .navbar-nav>.open>a:focus
