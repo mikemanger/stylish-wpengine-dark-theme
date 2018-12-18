@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        WP Engine Dark
 @namespace   mikemanger
-@version     1.0.4
+@version     1.0.5
 @homepageURL https://github.com/mikemanger/stylish-wpengine-dark-theme/
 @updateURL   https://raw.githubusercontent.com/mikemanger/stylish-wpengine-dark-theme/master/wpengine-dashboard-dark.user.css
 @license     CC-BY-4.0
@@ -35,6 +35,7 @@
 	}
 
 	#page-sites .sites-table .site-name a,
+	#page-sites .sites-table .panel-footer .install-name a,
 	#sites-sidebar #multi_env_site_sidebar li.environment-nav a.environment-name,
 	.navbar-default .navbar-nav>.open>a,
 	.navbar-default .navbar-nav>.open>a:hover,
