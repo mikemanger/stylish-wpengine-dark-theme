@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        WP Engine Dark
 @namespace   mikemanger
-@version     1.0.6
+@version     1.0.7
 @homepageURL https://github.com/mikemanger/stylish-wpengine-dark-theme/
 @updateURL   https://raw.githubusercontent.com/mikemanger/stylish-wpengine-dark-theme/master/wpengine-dashboard-dark.user.css
 @license     CC-BY-4.0
@@ -69,6 +69,18 @@
 	table.dataTable tbody tr,
 	.gray-field {
 		background-color: #262626 !important;
+	}
+
+	#page-dashboard .usage table {
+		border: #484848;
+	}
+
+	#page-dashboard .usage table tr:nth-child(odd) {
+		background-color: #393939;
+	}
+
+	#page-dashboard .usage table tr:nth-child(2n) {
+		background: #484848;
 	}
 
 	#page-overview table.install-detail tr,
