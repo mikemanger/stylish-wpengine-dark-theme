@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        WP Engine Dark
 @namespace   mikemanger
-@version     1.0.7
+@version     1.0.8
 @homepageURL https://github.com/mikemanger/stylish-wpengine-dark-theme/
 @updateURL   https://raw.githubusercontent.com/mikemanger/stylish-wpengine-dark-theme/master/wpengine-dashboard-dark.user.css
 @license     CC-BY-4.0
@@ -20,6 +20,12 @@
 	.shared-header .navbar-header .navbar-brand,
 	footer.page-footer svg {
 		filter: invert(90%);
+	}
+
+	.shared-header .navbar-nav > li.active,
+	.shared-header .navbar-nav > li.open,
+	.shared-header .navbar-nav > li:hover {
+		border-color: #8CABC8;
 	}
 
 	.navbar-default .navbar-nav>.active>a,
@@ -59,6 +65,10 @@
 	#page-dashboard table.install-list thead th,
 	#page-dashboard table.install-list tbody tr+tr {
 		border-color: #484848 !important;
+	}
+
+	.panel-widget .panel-heading a {
+		color: #2a8792;
 	}
 
 	#pages-checkpoints table.checkpoints tr.load-error td {
