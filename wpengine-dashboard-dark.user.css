@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        WP Engine Dark
 @namespace   mikemanger
-@version     1.0.8
+@version     1.0.9
 @homepageURL https://github.com/mikemanger/stylish-wpengine-dark-theme/
 @updateURL   https://raw.githubusercontent.com/mikemanger/stylish-wpengine-dark-theme/master/wpengine-dashboard-dark.user.css
 @license     CC-BY-4.0
@@ -28,6 +28,8 @@
 		border-color: #8CABC8;
 	}
 
+	a:focus,
+	a:hover,
 	.navbar-default .navbar-nav>.active>a,
 	.navbar-default .navbar-nav>.active>a:hover,
 	.navbar-default .navbar-nav>.active>a:focus,
@@ -36,6 +38,8 @@
 	.navbar-default .navbar-nav>li>a,
 	#page-dashboard table.install-list tbody a,
 	#sidebar li.active a,
+	#sidebar, #sidebar h2,
+	#sites-sidebar #sidebar.installs li a,
 	footer.page-footer ul.nav-links a {
 		color: #6a737d;
 	}
@@ -85,6 +89,8 @@
 		border: #484848;
 	}
 
+	table.table.striped-high-contrast>thead>tr>th,
+	table.table.striped-high-contrast>tbody>tr:nth-child(2n),
 	#page-dashboard .usage table tr:nth-child(odd) {
 		background-color: #393939;
 	}
@@ -99,6 +105,11 @@
 	.table,
 	footer.page-footer {
 		border-color: #484848;
+	}
+
+	#page-user-activities #user_activities table .activity-filter .dropdown-toggle {
+		color: #ccc;
+		border-color: #666;
 	}
 
 	#page-overview table.install-detail td.row-label {
@@ -131,6 +142,8 @@
 		background-color: #1d1d1d !important;
 	}
 
+	table.table.striped-high-contrast > thead,
+	table.table.striped-high-contrast>tbody>tr>td+td,
 	.log-viewer .search-form,
 	.table>thead>tr>th,
 	.table>thead>tr>td,
@@ -139,6 +152,6 @@
 	.table>tfoot>tr>th,
 	.table>tfoot>tr>td,
 	.log-viewer table.dataTable.no-footer {
-		border-color: #484848;
+		border-color: #484848 !important;
 	}
 }
