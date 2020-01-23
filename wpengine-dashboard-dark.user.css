@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        WP Engine Dark
 @namespace   mikemanger
-@version     1.0.9
+@version     1.10.0
 @homepageURL https://github.com/mikemanger/stylish-wpengine-dark-theme/
 @updateURL   https://raw.githubusercontent.com/mikemanger/stylish-wpengine-dark-theme/master/wpengine-dashboard-dark.user.css
 @license     CC-BY-4.0
@@ -52,6 +52,10 @@
 	.navbar-default .navbar-nav>.open>a:focus
 	.navbar-default .navbar-nav>li>a {
 		color: #8CABC8 !important;
+	}
+
+	.navbar-nav img {
+		filter: invert(1) hue-rotate(180deg);
 	}
 
 	.panel,
