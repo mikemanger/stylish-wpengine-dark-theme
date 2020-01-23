@@ -58,6 +58,11 @@
 		filter: invert(1) hue-rotate(180deg);
 	}
 
+	hr,
+	.unicorn-top-nav {
+		border-color: #484848;
+	}
+
 	.panel,
 	.panel-heading,
 	.panel-footer {
