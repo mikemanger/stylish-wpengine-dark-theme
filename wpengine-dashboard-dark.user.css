@@ -58,11 +58,6 @@
 		filter: invert(1) hue-rotate(180deg);
 	}
 
-	hr,
-	.unicorn-top-nav {
-		border-color: #484848;
-	}
-
 	.panel,
 	.panel-heading,
 	.panel-footer {
@@ -70,13 +65,15 @@
 		color: #6a737d !important;
 	}
 
+	hr,
 	#page_heading,
+	#page-dashboard table.install-list thead th,
+	#page-dashboard table.install-list tbody tr + tr,
 	.panel-default,
 	.panel-body,
 	.panel-widget,
 	.panel-footer,
-	#page-dashboard table.install-list thead th,
-	#page-dashboard table.install-list tbody tr+tr {
+	.unicorn-top-nav {
 		border-color: #484848 !important;
 	}
 
