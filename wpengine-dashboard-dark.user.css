@@ -1,20 +1,25 @@
 /* ==UserStyle==
 @name        WP Engine Dark
 @namespace   mikemanger
-@version     1.10.2
+@version     1.10.3
 @homepageURL https://github.com/mikemanger/stylish-wpengine-dark-theme/
 @updateURL   https://raw.githubusercontent.com/mikemanger/stylish-wpengine-dark-theme/master/wpengine-dashboard-dark.user.css
 @license     CC-BY-4.0
 ==/UserStyle== */
 @-moz-document domain(my.wpengine.com) {
 	body,
-	.navbar-default {
+	.navbar-default,
+	.unicorn-top-nav {
 		background-color: rgb(38, 38, 38);
 		color: #6a737d;
 	}
 
 	.navbar-default {
 		border-color: #484848;
+	}
+
+	.MuiInputBase-input {
+		color: #6a737d;
 	}
 
 	.shared-header .navbar-header .navbar-brand,
