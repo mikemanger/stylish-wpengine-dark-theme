@@ -18,6 +18,7 @@
 		border-color: #484848;
 	}
 
+	#page-addons-index .addons .add-sites-btn .count,
 	.MuiInputBase-input {
 		color: #6a737d;
 	}
@@ -75,6 +76,9 @@
 
 	hr,
 	#page_heading,
+    	#page-addons-index .addons .addon,
+  	#page-addons-index .addons .add-sites-btn .count,
+    	#page-addons-index .addons .add-sites-btn .button,
 	#page-dashboard table.install-list thead th,
 	#page-dashboard table.install-list tbody tr + tr,
 	.panel-default,
