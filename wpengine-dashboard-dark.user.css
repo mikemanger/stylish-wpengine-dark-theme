@@ -8,6 +8,9 @@
 ==/UserStyle== */
 @-moz-document domain(my.wpengine.com) {
 	body,
+	#sites-sidebar #multi_env_site_sidebar li.environment-nav.active a.environment-name,
+	.nav>li>a:focus,
+	.nav>li>a:hover,
 	.navbar-default,
 	.unicorn-top-nav {
 		background-color: rgb(38, 38, 38);
