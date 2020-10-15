@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        WP Engine Dark
 @namespace   mikemanger
-@version     1.10.3
+@version     1.10.4
 @homepageURL https://github.com/mikemanger/stylish-wpengine-dark-theme/
 @updateURL   https://raw.githubusercontent.com/mikemanger/stylish-wpengine-dark-theme/master/wpengine-dashboard-dark.user.css
 @license     CC-BY-4.0
@@ -9,6 +9,7 @@
 @-moz-document domain(my.wpengine.com) {
 	body,
 	#sites-sidebar #multi_env_site_sidebar li.environment-nav.active a.environment-name,
+	.MuiPaper-root,
 	.nav>li>a:focus,
 	.nav>li>a:hover,
 	.navbar-default,
@@ -51,9 +52,18 @@
 	#page-dashboard table.install-list tbody a,
 	#sidebar li.active a,
 	#sidebar, #sidebar h2,
+	#site-overview-header .overview-tab a.sites-link,
 	#sites-sidebar #sidebar.installs li a,
 	footer.page-footer ul.nav-links a {
 		color: #6a737d;
+	}
+    
+	#site-overview-header path {
+		fill: #6a737d;
+	}
+
+	#site-overview-header img {
+		filter: invert(.5);
 	}
 
 	#page-sites .sites-table .site-name a,
@@ -70,9 +80,11 @@
 		filter: invert(1) hue-rotate(180deg);
 	}
 
+	#site-overview-header,
 	.panel,
 	.panel-heading,
-	.panel-footer {
+	.panel-footer,
+	.tagged-dropdown-item {
 		background: #1d1d1d !important;
 		color: #6a737d !important;
 	}
@@ -84,6 +96,9 @@
     	#page-addons-index .addons .add-sites-btn .button,
 	#page-dashboard table.install-list thead th,
 	#page-dashboard table.install-list tbody tr + tr,
+	#site-overview-header .bordered,
+	.Mui-selected,
+	.MuiPaper-elevation0,
 	.panel-default,
 	.panel-body,
 	.panel-widget,
