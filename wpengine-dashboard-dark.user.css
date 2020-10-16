@@ -14,7 +14,7 @@
 	.nav>li>a:hover,
 	.navbar-default,
 	.unicorn-top-nav {
-		background-color: rgb(38, 38, 38);
+		background-color: rgb(38, 38, 38) !important;
 		color: #6a737d;
 	}
 
@@ -54,11 +54,14 @@
 	#sidebar, #sidebar h2,
 	#site-overview-header .overview-tab a.sites-link,
 	#sites-sidebar #sidebar.installs li a,
+	#sites-table .full-site-link .site-name__site-link,
+	#sites-table-environment .environment__name__link,
 	footer.page-footer ul.nav-links a {
 		color: #6a737d;
 	}
     
-	#site-overview-header path {
+	#site-overview-header path,
+	.MuiTableCell-root path {
 		fill: #6a737d;
 	}
 
@@ -71,6 +74,9 @@
 	#page-sites .sites-table .site-name a,
 	#page-sites .sites-table .panel-footer .install-name a,
 	#sites-sidebar #multi_env_site_sidebar li.environment-nav a.environment-name,
+	#sites-table .unicorn-action-link,
+	.MuiTable-root caption,
+	.MuiTableCell-body,
 	.navbar-default .navbar-nav>.open>a,
 	.navbar-default .navbar-nav>.open>a:hover,
 	.navbar-default .navbar-nav>.open>a:focus
@@ -101,6 +107,8 @@
 	#page-dashboard table.install-list tbody tr + tr,
 	#page-overview .install-detail-graphs .install-detail,
 	#site-overview-header .bordered,
+	#sites-table,
+	#sites-table .table-body tr:not(:last-child) td, #sites-table .table-head th,
 	.Mui-selected,
 	.MuiPaper-elevation0,
 	.panel-default,
@@ -122,7 +130,8 @@
 	table,
 	table.dataTable tbody tr,
 	#page-automated-migration .settings,
-	.gray-field {
+	.gray-field,
+	.MuiTableRow-root {
 		background-color: #262626 !important;
 	}
 
