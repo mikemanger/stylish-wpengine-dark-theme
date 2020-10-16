@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        WP Engine Dark
 @namespace   mikemanger
-@version     1.10.4
+@version     1.10.5
 @homepageURL https://github.com/mikemanger/stylish-wpengine-dark-theme/
 @updateURL   https://raw.githubusercontent.com/mikemanger/stylish-wpengine-dark-theme/master/wpengine-dashboard-dark.user.css
 @license     CC-BY-4.0
@@ -66,6 +66,8 @@
 		filter: invert(.5);
 	}
 
+	#page-overview .install-detail-graphs .install-detail .install-detail-header .title,
+	#page-overview .install-detail-graphs .install-detail .install-detail-usages,
 	#page-sites .sites-table .site-name a,
 	#page-sites .sites-table .panel-footer .install-name a,
 	#sites-sidebar #multi_env_site_sidebar li.environment-nav a.environment-name,
@@ -80,6 +82,7 @@
 		filter: invert(1) hue-rotate(180deg);
 	}
 
+	#page-overview .environment-stats,
 	#site-overview-header,
 	.panel,
 	.panel-heading,
@@ -91,11 +94,12 @@
 
 	hr,
 	#page_heading,
-    	#page-addons-index .addons .addon,
-  	#page-addons-index .addons .add-sites-btn .count,
-    	#page-addons-index .addons .add-sites-btn .button,
+	#page-addons-index .addons .addon,
+	#page-addons-index .addons .add-sites-btn .count,
+	#page-addons-index .addons .add-sites-btn .button,
 	#page-dashboard table.install-list thead th,
 	#page-dashboard table.install-list tbody tr + tr,
+	#page-overview .install-detail-graphs .install-detail,
 	#site-overview-header .bordered,
 	.Mui-selected,
 	.MuiPaper-elevation0,
