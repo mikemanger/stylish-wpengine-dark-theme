@@ -79,7 +79,7 @@
 	.MuiTableCell-body,
 	.navbar-default .navbar-nav>.open>a,
 	.navbar-default .navbar-nav>.open>a:hover,
-	.navbar-default .navbar-nav>.open>a:focus
+	.navbar-default .navbar-nav>.open>a:focus,
 	.navbar-default .navbar-nav>li>a {
 		color: #8CABC8 !important;
 	}
@@ -117,6 +117,11 @@
 	.panel-footer,
 	.unicorn-top-nav {
 		border-color: #484848 !important;
+	}
+    
+	.MuiButton-outlined {
+		box-shadow: 0 0 0 2px #6a737d inset;
+		color: #6a737d;
 	}
 
 	.panel-widget .panel-heading a {
