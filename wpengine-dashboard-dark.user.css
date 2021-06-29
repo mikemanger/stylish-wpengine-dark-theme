@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        WP Engine Dark
 @namespace   mikemanger
-@version     1.10.6
+@version     1.10.7
 @homepageURL https://github.com/mikemanger/stylish-wpengine-dark-theme/
 @updateURL   https://raw.githubusercontent.com/mikemanger/stylish-wpengine-dark-theme/master/wpengine-dashboard-dark.user.css
 @license     CC-BY-4.0
@@ -123,6 +123,17 @@
 	.filter__search .MuiButtonBase-root {
 		box-shadow: 0 0 0 2px #6a737d inset;
 		color: #6a737d;
+	}
+    
+	.btn-tertiary,
+	.MuiButtonBase-root {
+		color: #6a737d;
+	}
+    
+	.MuiButton-endIcon path,
+	.MuiButton-startIcon path,
+	.MuiTypography-root path {
+		fill: #6a737d;
 	}
 
 	.panel-widget .panel-heading a {
