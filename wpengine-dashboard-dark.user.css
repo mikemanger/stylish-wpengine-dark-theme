@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        WP Engine Dark
 @namespace   mikemanger
-@version     1.10.7
+@version     1.10.8
 @homepageURL https://github.com/mikemanger/stylish-wpengine-dark-theme/
 @updateURL   https://raw.githubusercontent.com/mikemanger/stylish-wpengine-dark-theme/master/wpengine-dashboard-dark.user.css
 @license     CC-BY-4.0
@@ -86,6 +86,10 @@
 
 	.navbar-nav img {
 		filter: invert(1) hue-rotate(180deg);
+	}
+    
+    	img[src$="-icon.svg"] {
+		filter: invert(.5) hue-rotate(180deg);
 	}
 
 	#page-overview .environment-stats,
@@ -224,5 +228,18 @@
 	.table>tfoot>tr>td,
 	.log-viewer table.dataTable.no-footer {
 		border-color: #484848 !important;
+	}
+    
+	.pagination>li>a,
+	.pagination>li>span,
+	.pagination>.disabled>a,
+	.pagination>.disabled>a:focus,
+	.pagination>.disabled>a:hover,
+	.pagination>.disabled>span,
+	.pagination>.disabled>span:focus,
+	.pagination>.disabled>span:hover {
+		background-color: #393939;
+		border-color: #484848;
+		color: #ccc;
 	}
 }
