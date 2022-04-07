@@ -137,7 +137,7 @@
     
 	.btn-tertiary,
 	.MuiButtonBase-root {
-		color: #6a737d;
+		color: #6a737d !important;
 	}
     
 	.MuiButton-endIcon path,
