@@ -40,6 +40,9 @@
 
 	a:focus,
 	a:hover,
+	.MuiDialogTitle-root,
+	.MuiFormHelperText-root,
+	.MuiFormLabel-colorPrimary,
 	.navbar-default .navbar-nav>.active>a,
 	.navbar-default .navbar-nav>.active>a:hover,
 	.navbar-default .navbar-nav>.active>a:focus,
@@ -59,7 +62,7 @@
 	#sites-table .full-site-link .site-name__site-link,
 	#sites-table-environment .environment__name__link,
 	footer.page-footer ul.nav-links a {
-		color: #6a737d;
+		color: #6a737d !important;
 	}
     
 	#site-overview-header path,
