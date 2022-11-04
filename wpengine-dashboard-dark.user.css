@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        WP Engine Dark
 @namespace   mikemanger
-@version     1.10.8
+@version     1.11.0
 @homepageURL https://github.com/mikemanger/stylish-wpengine-dark-theme/
 @updateURL   https://raw.githubusercontent.com/mikemanger/stylish-wpengine-dark-theme/master/wpengine-dashboard-dark.user.css
 @license     CC-BY-4.0
@@ -9,16 +9,19 @@
 @-moz-document domain(my.wpengine.com) {
 	body,
 	#sites-sidebar #multi_env_site_sidebar li.environment-nav.active a.environment-name,
-	.MuiPaper-root,
+	#sites-management-header,
+	#sites-management-header + .MuiBox-root, /* styles filter box */
 	.nav>li>a:focus,
 	.nav>li>a:hover,
 	.navbar-default,
+	.unicorn-content,
 	.unicorn-top-nav {
 		background-color: rgb(38, 38, 38) !important;
 		color: #6a737d;
 	}
 
-	.navbar-default {
+	.MuiGrid-container,
+    	.navbar-default {
 		border-color: #484848;
 	}
 
@@ -82,6 +85,7 @@
 	#sites-table .unicorn-action-link,
 	.MuiTable-root caption,
 	.MuiTableCell-body,
+	.MuiTypography-h4,
 	.navbar-default .navbar-nav>.open>a,
 	.navbar-default .navbar-nav>.open>a:hover,
 	.navbar-default .navbar-nav>.open>a:focus,
@@ -99,6 +103,7 @@
 
 	#page-overview .environment-stats,
 	#site-overview-header,
+	.MuiPaper-root,
 	.panel,
 	.panel-heading,
 	.panel-footer,
@@ -128,14 +133,14 @@
 		border-color: #484848 !important;
 	}
     
-    #page-user-activities #user_activities table .activity-filter .filter-actions a.cancel,
-    #page-user-activities #user_activities table .activity-filter .filter-actions button.cancel.btn-link,
-    .btn-default,
-    .btn-outline-primary,
-    .btn-secondary,
-    .btn.cancel.btn-link,
-    .filter__search .MuiButtonBase-root,
-    .MuiButton-outlined {
+	#page-user-activities #user_activities table .activity-filter .filter-actions a.cancel,
+	#page-user-activities #user_activities table .activity-filter .filter-actions button.cancel.btn-link,
+	.btn-default,
+	.btn-outline-primary,
+	.btn-secondary,
+	.btn.cancel.btn-link,
+	.filter__search .MuiButtonBase-root,
+	.MuiButton-outlined {
 		box-shadow: 0 0 0 2px #6a737d inset;
 		color: #6a737d;
 	}
@@ -143,6 +148,10 @@
 	.btn-tertiary,
 	.MuiButtonBase-root {
 		color: #6a737d !important;
+	}
+    
+	.MuiButton-contained {
+		color: #484848 !important;
 	}
     
 	.MuiButton-endIcon path,
@@ -159,25 +168,25 @@
 		color: #f00;
 	}
     
-    /* site sub nav */
-    .subnav-container nav {
-        border-color: #484848;
-    }
+	/* site sub nav */
+	.subnav-container nav {
+		border-color: #484848;
+	}
     
-    .subnav-container nav > a {
-        background-color: #1d1d1d;
-        border-color: #484848;
-    }
+	.subnav-container nav > a {
+		background-color: #1d1d1d;
+		border-color: #484848;
+	}
     
-    .subnav-container nav > a h4,
-    .subnav-container nav > div a {
-        color: #6a737d !important;
-    }
+	.subnav-container nav > a h4,
+	.subnav-container nav > div a {
+        	color: #6a737d !important;
+	}
     
-    .subnav-container nav > div {
-        background-color: #393939;
-        border-color: #484848;
-    }
+	.subnav-container nav > div {
+		background-color: #393939;
+		border-color: #484848;
+	}
 
 	table,
 	table.dataTable tbody tr,
